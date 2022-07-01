@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "Communicating information from data with R & Quarto"
+  author: "Jaclyn Janis & Nichole Monhait"
+  date: "7/1/2022"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
